@@ -1,2 +1,2 @@
 https://raw.githubusercontent.com/tuinboondev/tuins-appstore/main/random.png Tuinboon
-https://raw.githubusercontent.com/tuinboondev/tuins-appstore/main/boon.png spaghettiMiauw
+https://raw.githubusercontent.com/tuinboondev/tuins-appstore/main/random.png spaghettiMiauw
