@@ -1,21 +1,24 @@
-package com.example.addon.commands;
+package com.tuinboon.tuinscosmetics.commands;
 
+import com.tuinboon.tuinscosmetics.Addon;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import meteordevelopment.meteorclient.commands.Command;
 import net.minecraft.command.CommandSource;
 
 import static com.mojang.brigadier.Command.SINGLE_SUCCESS;
 
-public class CommandExample extends Command {
-    public CommandExample() {
-        super("example", "Sends a message.");
+public class ReloadCape extends Command {
+    public ReloadCape() {
+        super("reloadcape", "Reloads everyone's cape");
     }
 
     @Override
     public void build(LiteralArgumentBuilder<CommandSource> builder) {
         builder.executes(context -> {
-            info("hi");
+            Addon.initializeCape();
+            info("Capes reloaded");
             return SINGLE_SUCCESS;
         });
     }
+
 }

@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "tuins-cosmetics",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "Tuin's cosmetics",
+  "description": "A Meteor addon for custom cosmetics",
   "authors": [
-    "seasnail"
+    "Tuinboon"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/TuinboonDev/tuins-cosmetics"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
@@ -18,10 +18,10 @@
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "tuins-cosmetics.mixins.json"
   ],
   "custom": {
-    "meteor-client:color": "225,25,25"
+    "meteor-client:color": "89,245,5"
   },
   "depends": {
     "java": ">=17",
